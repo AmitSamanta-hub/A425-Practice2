@@ -1,0 +1,23 @@
+.box
+{
+    width: 400px;
+    height: 400px;
+    background-color: aqua;
+    
+}
+
+#box1
+{
+    line-height: 50px;
+    text-indent: 70px;
+}
+
+#box2
+{
+    letter-spacing: 25px;
+}
+
+#box3
+{
+    word-spacing: 25px;
+}

@@ -1,0 +1,51 @@
+.box
+{
+    width: 200px;
+    height: 200px;
+    position: absolute;
+}
+
+#box1
+{
+    background-color: #102E50;
+    top: 60px;
+    left: 50px;
+}
+
+#box2
+{
+    background-color: #F5C45E;
+    top: 120px;
+    left: 70px;
+}
+
+#box3
+{
+    background-color: #E78B48;
+    top: 180px;
+    left: 90px;
+}
+
+.container
+{
+    width: 500px;
+    height: 500px;
+    background-color: #328E6E;
+    position: relative;
+    left: 100px;
+    top: 200px;
+    
+}
+
+.shape
+{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    background-color: #E78B48;
+    border-radius: 50px 50px 50px 50px;
+    left: 480px;
+    z-index: -1;
+    
+}
+

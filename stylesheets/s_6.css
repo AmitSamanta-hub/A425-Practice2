@@ -1,0 +1,30 @@
+.box
+{
+    width: 200px;
+    height: 200px;
+    position: relative;
+}
+
+#box1
+{
+    background-color: #102E50;
+    left: 150px;
+    top: 200px;
+}
+
+#box2
+{
+    background-color: #F5C45E;
+    bottom: 500px;
+    right: 150px;
+    left: 200px;
+}
+
+#box3
+{
+    background-color: #E78B48;
+    top: 200px;
+    bottom: 200px;
+    right: 200px;
+    left: 300px;
+}

@@ -1,0 +1,29 @@
+.container
+{
+    height: 500px;
+    background-color: rgb(211, 212, 196);
+    display: grid;
+    grid-template-columns: 1fr 2fr 3fr;
+    grid-template-rows: 2fr 6fr 2fr;
+    grid-gap: 30px;
+}
+
+.classbox
+{
+    
+    background-color: rgb(38, 205, 54);
+    border: 2px solid crimson;
+
+}
+
+#box1,#box4
+{
+    grid-column-start: 1;
+    grid-column-end: 4;
+}
+
+#box3
+{
+    grid-column-start: 2;
+    grid-column-end: 4;
+}

@@ -1,0 +1,23 @@
+@media screen and (max-width:1300px) {
+    
+    body
+    {
+        background-color: brown;
+    }
+    .anime-img{
+        width: 1000px;
+    }
+
+}
+
+@media screen and (max-width:500px) {
+    
+    body
+    {
+        background-color: rgb(10, 230, 65);
+    }
+    .anime-img{
+        width: 400px;
+    }
+
+}

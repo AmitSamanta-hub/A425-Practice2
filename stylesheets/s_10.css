@@ -1,0 +1,18 @@
+body{
+    background-image: url(./images/octavio-fossatti-3fy1RanqtLQ-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-size: 70%;
+    background-position: top center;
+    background-attachment: fixed;
+}
+
+.box
+{
+    width: 200px;
+    height: 200px;
+    background-color: aqua;
+    overflow-y: auto;
+    position: fixed;
+    top: 10px;
+    left: 50px;
+}

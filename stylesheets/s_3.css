@@ -1,0 +1,28 @@
+.para
+{
+    color: rgb(255, 0, 17);
+}
+body{
+    background-color: rgb(191, 255, 0);
+}
+
+.box
+{
+    color: black;
+    width: 50%;
+    height: 250px;
+    background-color: aliceblue;
+    padding: 25px;
+    border: 20px double crimson;
+    margin: 40px;
+    
+}
+
+#button
+{
+    color: rgb(29, 13, 167);
+    text-decoration: dotted;
+    background-color: aliceblue;
+    padding: 1px 2px 3px 4px;
+    border:20px double crimson;
+}

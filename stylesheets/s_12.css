@@ -1,0 +1,40 @@
+.para   
+{
+    font-size: 30px;
+}
+
+.para::first-letter
+{
+    color: blueviolet;
+    font-size: 40px;
+}
+
+.para::first-line
+{
+    text-decoration: 2px overline violet;
+}
+
+/*Descendant selector : space */
+/* Child selector > */
+
+.container>h6{
+    background-color: rgb(178, 226, 21);
+}
+
+.container~h2
+{
+    color: chocolate;
+}
+
+.container :nth-child(odd)
+{
+    color: red;
+
+}
+
+.container > :last-child
+{
+    color: blue;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Spice&family=Bungee+Tint&family=Roboto:ital,wght@1,100..900&family=Special+Gothic+Condensed+One&display=swap');
